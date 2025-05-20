@@ -1,0 +1,52 @@
+{
+    "name": "skhelper",
+    "version": "0.0.1",
+    "description": "A helper utility for developing AI apps with semantic-kernel",
+    "homepage": "https://github.com/cjoakim/skhelper",
+    "main": "./dist/index.js",
+    "bin": "./dist/index.js",
+    "types": "dist/index.d.ts",
+    "engines": {
+        "node": ">=22.0.0"
+    },
+    "files": [
+        "dist",
+        "LICENSE",
+        "README.md",
+        "package.json"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prebuild": "rimraf dist",
+        "test": "mocha dist/*.test.js",
+
+        "version": "node ./dist/index.js version",
+        "init": "node ./dist/index.js init",
+        "secrets": "node ./dist/index.js secrets",
+        "files": "node ./dist/index.js files",
+        "scan": "node ./dist/index.js scan"
+    },
+    "keywords": [
+        "semantic-kernel",
+        "AI",
+        "agentic",
+        "helper"
+    ],
+    "author": "Chris Joakim",
+    "license": "MIT",
+    "dependencies": {
+        "@nodelib/fs.walk": "^3.0.1",
+        "dotenv": "^16.5.0",
+        "ts-node": "^10.9.2",
+        "winston": "^3.17.0"
+    },
+    "devDependencies": {
+        "@types/chai": "^5.2.1",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "^22.14.1",
+        "chai": "^5.2.0",
+        "mocha": "^11.1.0",
+        "rimraf": "6.0.1",
+        "typescript": "^5.8.3"
+    }
+}
