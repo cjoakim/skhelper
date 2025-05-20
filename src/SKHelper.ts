@@ -29,7 +29,7 @@ export class SKHelper {
      */
     generate() : boolean {
         try {
-            // TODO - implement
+            console.log("SKHelper - generate().  TODO: implement.");
             return true;
         }
         catch (error) {
@@ -43,7 +43,7 @@ export class SKHelper {
      */
     report() : boolean {
         try {
-            // TODO - implement
+            console.log("SKHelper - report().  TODO: implement.");
             return true;
         }
         catch (error) {
@@ -57,7 +57,7 @@ export class SKHelper {
      */
     scan() : boolean {
         try {
-            // TODO - implement
+            console.log("SKHelper - scan().  TODO: implement.");
             return true;
         }
         catch (error) {

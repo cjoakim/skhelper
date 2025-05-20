@@ -21,9 +21,8 @@
         "test": "mocha dist/*.test.js",
 
         "version": "node ./dist/index.js version",
-        "init": "node ./dist/index.js init",
-        "secrets": "node ./dist/index.js secrets",
-        "files": "node ./dist/index.js files",
+        "generate": "node ./dist/index.js generate",
+        "report": "node ./dist/index.js report",
         "scan": "node ./dist/index.js scan"
     },
     "keywords": [

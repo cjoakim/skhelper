@@ -8,4 +8,4 @@ Home of the **skhelper** NPM library, a helper utility for developing AI apps wi
 
 | Version |    Date    | Changes                                                             |
 | ------- | ---------- | ------------------------------------------------------------------- |
-|  0.0.1  | 2025/05/20 | Project creation at npmjs.com                               |
+|  0.0.1  | 2025/05/20 | Project creation at npmjs.com                                       |
